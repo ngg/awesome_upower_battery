@@ -12,7 +12,7 @@ local UP = lgi.require('UPowerGlib')
 local naughty = require ('naughty')
 local awful = require ('awful')
 local beautiful = require ('beautiful')
-local Gtk = lgi.require('Gtk')
+local Gtk = lgi.require('Gtk', '3.0')
 local wibox = require('wibox')
 local math = require('math')
 
